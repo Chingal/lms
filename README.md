@@ -18,11 +18,11 @@
 
 ## Correr el Servidor Local de Django
 
-.. code-block:: sh
+    code-block:: sh
 
     python manage.py runserver
 
-** Endpoint **
+ Endpoint
 ==============
 
 Api Root
