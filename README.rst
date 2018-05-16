@@ -11,8 +11,8 @@ Api Root
 .. code-block:: javascrip
 
 	{   
-    	"tickets": "http://localhost:8000/api/tickets/",
-    	"files": "http://localhost:8000/api/files/"
+    		"tickets": "http://localhost:8000/api/tickets/",
+    		"files": "http://localhost:8000/api/files/"
     	}
 
   
