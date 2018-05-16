@@ -6,7 +6,7 @@ Api Root
 
 * Success Response:
   * Code: 200 OK
-  * Content: *
+  * Content: 
   
   .. code-block:: json
         {
