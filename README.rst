@@ -1,6 +1,18 @@
-Gestión de Tickets .. image:: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
-:target: https://github.com/sindresorhus/awesome)
-|
+Api Root
+--------
+* **URL: **  `/api/`
+
+* **Method:** `GET`
+
+* **Success Response:**
+  * **Code:** 200 OK
+  * **Content:**
+    ```json
+{
+		"tickets": "http://localhost:8000/api/tickets/",
+    	"files": "http://localhost:8000/api/files/"
+}
+    ```
 ENDPOINTS
 ===================
 
