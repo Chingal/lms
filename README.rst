@@ -9,12 +9,13 @@ Api Root
   * Content: 
   
 
-. code-block:: javascript
+.. code-block:: javascript
    :emphasize-lines: 8,10,16
 
 	code . . .
 
 .. code-block:: json
+
         {
             "key": "value",
             "key2": "value2",
@@ -25,8 +26,8 @@ Api Root
     pip install django-cors-headers
 
 .. code-block:: javascrip
-
-    {
+	
+	{
             "key": "value",
             "key2": "value2",
 	}
