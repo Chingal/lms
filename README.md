@@ -17,9 +17,7 @@
 > python manage.py collectstatic
 
 ## Correr el Servidor Local de Django
-
-    code-block:: sh
-
+    
     python manage.py runserver
 
  Endpoint
@@ -27,6 +25,6 @@
 
 Api Root
 --------
-* **URL: **  `/api/`
+**URL: **  `/api/`
 
 * **Method:** `GET`
