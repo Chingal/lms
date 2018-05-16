@@ -6,22 +6,12 @@ Api Root
 
 * **Success Response**:
     * **Code**: 200 OK
-    * **Content**:  {"key": "value", "key2": "value2", }
-    {   
-    	"tickets": "http://localhost:8000/api/tickets/",
-    	"files": "http://localhost:8000/api/files/"
-    }
-    
-.. code-block:: sh
-
-    pip install django-cors-headers
-
+    * **Content**:  {"key": "value", "key2": "value2", }   
 .. code-block:: javascrip
-	
-	{
-            "key": "value",
-            "key2": "value2",
-	}
+	{   
+    		"tickets": "http://localhost:8000/api/tickets/",
+    		"files": "http://localhost:8000/api/files/"
+    	}
 
   
 ENDPOINTS
