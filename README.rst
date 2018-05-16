@@ -6,7 +6,11 @@ Api Root
 
 * **Success Response**:
     * **Code**: 200 OK
-    * **Content**:  ..code-block::json {"key": "value", "key2": "value2", }
+    * **Content**:  {"key": "value", "key2": "value2", }
+    {   
+    	"tickets": "http://localhost:8000/api/tickets/",
+    	"files": "http://localhost:8000/api/files/"
+    }
     
 .. code-block:: sh
 
