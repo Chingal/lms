@@ -20,6 +20,16 @@
     
     python manage.py runserver
 
+.. code-block:: python
+
+    MIDDLEWARE = [  # Or MIDDLEWARE_CLASSES on Django < 1.10
+        ...
+        'corsheaders.middleware.CorsMiddleware',
+        'django.middleware.common.CommonMiddleware',
+        ...
+    ]
+
+
  Endpoint
 ==============
 
