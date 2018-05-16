@@ -3,7 +3,7 @@ Manage Tickets
 Create an api rest that allows us to manage the transaction creation tickets in a upload application.
 
 Api Root
---------
+========
 * **URL**: ``/api/``
 
 * **METHOD**: ``GET``
