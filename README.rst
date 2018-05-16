@@ -7,6 +7,13 @@ Api Root
 * Success Response:
   * Code: 200 OK
   * Content:
+  .. code-block:: json
+        {
+            "key": "value",
+            "key2": "value2",
+            ...
+        }
+	
     ```json
 {
 		"tickets": "http://localhost:8000/api/tickets/",
