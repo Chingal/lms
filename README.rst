@@ -28,15 +28,11 @@ Obtain Auth Token
 
 * **DATA PARAMS**: ``{"username": admin, "password": "********" }``
     
-.. code-block:: python
-
-	{"username": admin, "password": "********" }
-
 * **Success Response**:
     * **Code**: ``200 OK``
     * **Content**:
 
-.. code-block:: javascrip
+.. code-block:: python
 
 	{"token": "xxxxxxx-12345-aaaa-bbbb-9876-xxxx"}
 
