@@ -1,4 +1,6 @@
-django-cors-headers
+** Gestión de Tickets [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) **
+|
+ENDPOINTS
 ===================
 
 A Django App that adds CORS (Cross-Origin Resource Sharing) headers to
