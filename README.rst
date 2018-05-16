@@ -28,7 +28,7 @@ Obtain Auth Token
 
 * **DATA PARAMS**: ``{"username": admin, "password": "********" }``
     
-.. code-block:: javascrip
+.. code-block:: python
 
 	{"username": admin, "password": "********" }
 
