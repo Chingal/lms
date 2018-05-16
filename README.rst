@@ -7,19 +7,10 @@ Api Root
 * Success Response:
   * Code: 200 OK
   * Content: 
-  
-
-.. code-block:: javascript
-   :emphasize-lines: 8,10,16
-
-	code . . .
 
 .. code-block:: json
 
-        {
-            "key": "value",
-            "key2": "value2",
-        }
+    {"key": "value", "key2": "value2", }
 	
 .. code-block:: sh
 
