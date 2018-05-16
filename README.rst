@@ -6,10 +6,8 @@ Api Root
 
 * **Success Response**:
     * **Code**: 200 OK
-    * **Content**: 
-.. code-block:: json
-        {"key": "value", "key2": "value2", }
-	
+    * **Content**:  ..code-block::json {"key": "value", "key2": "value2", }
+    
 .. code-block:: sh
 
     pip install django-cors-headers
