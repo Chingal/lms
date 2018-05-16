@@ -1,3 +1,7 @@
+Manage Tickets
+=================
+Create an api rest that allows us to manage the transaction creation tickets in a upload application.
+
 Api Root
 --------
 * **URL**: ``/api/``
@@ -14,21 +18,12 @@ Api Root
     		"tickets": "http://localhost:8000/api/tickets/",
     		"files": "http://localhost:8000/api/files/"
     	}
-``CsrfViewMiddleware``
   
-ENDPOINTS
-===================
+Obtain Auth Token
+=================
 
 A Django App that adds CORS (Cross-Origin Resource Sharing) headers to
 responses.
-
-Although JSON-P is useful, it is strictly limited to GET requests. CORS
-builds on top of ``XmlHttpRequest`` to allow developers to make cross-domain
-requests, similar to same-domain requests. Read more about it here:
-http://www.html5rocks.com/en/tutorials/cors/
-
-.. image:: https://travis-ci.org/ottoyiu/django-cors-headers.svg?branch=master
-   :target: https://travis-ci.org/ottoyiu/django-cors-headers
 
 
 Requirements
