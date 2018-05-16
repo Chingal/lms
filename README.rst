@@ -5,7 +5,7 @@ Api Root
 * **METHOD**: `GET`
 
 * **Success Response**:
-> **Code**: 200 OK
+    * **Code**: 200 OK
     * **Content**: 
 .. code-block:: json
         {"key": "value", "key2": "value2", }
