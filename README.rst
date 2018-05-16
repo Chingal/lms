@@ -1,12 +1,12 @@
 Api Root
 --------
-* **URL: **  `/api/`
+* URL: `/api/`
 
-* **Method:** `GET`
+* Method: `GET`
 
-* **Success Response:**
-  * **Code:** 200 OK
-  * **Content:**
+* Success Response:
+  * Code: 200 OK
+  * Content:
     ```json
 {
 		"tickets": "http://localhost:8000/api/tickets/",
