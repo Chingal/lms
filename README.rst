@@ -19,9 +19,19 @@ Api Root
         {
             "key": "value",
             "key2": "value2",
-            ...
         }
 	
+.. code-block:: sh
+
+    pip install django-cors-headers
+
+.. code-block:: javascrip
+
+    {
+            "key": "value",
+            "key2": "value2",
+	}
+
   
 ENDPOINTS
 ===================
