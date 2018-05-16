@@ -6,7 +6,7 @@ Api Root
 
 * **Success Response**:
     * **Code**: 200 OK
-    * **Content**:  {"key": "value", "key2": "value2", }   
+    * **Content**:
 
 .. code-block:: javascrip
 
@@ -14,7 +14,7 @@ Api Root
     		"tickets": "http://localhost:8000/api/tickets/",
     		"files": "http://localhost:8000/api/files/"
     	}
-
+``CsrfViewMiddleware``
   
 ENDPOINTS
 ===================
