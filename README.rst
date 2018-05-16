@@ -32,6 +32,13 @@ Obtain Auth Token
 
 	{"username": admin, "password": "********" }
 
+* **Success Response**:
+    * **Code**: ``200 OK``
+    * **Content**:
+
+.. code-block:: javascrip
+
+	{"token": "xxxxxxx-12345-aaaa-bbbb-9876-xxxx"}
 
 Setup
 -----
