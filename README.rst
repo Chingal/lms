@@ -5,8 +5,8 @@ Api Root
 * Method: `GET`
 
 * Success Response:
-  Code: 200 OK
-  Content: 
+  ** Code: 200 OK
+ * Content: 
 
 .. code-block:: json
 
