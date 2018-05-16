@@ -6,20 +6,23 @@ Api Root
 
 * Success Response:
   * Code: 200 OK
-  * Content:
+  * Content: *
+  
   .. code-block:: json
         {
             "key": "value",
             "key2": "value2",
             ...
         }
+
+.. code-block:: json
+        {
+            "key": "value",
+            "key2": "value2",
+            ...
+        }
 	
-    ```json
-{
-		"tickets": "http://localhost:8000/api/tickets/",
-    	"files": "http://localhost:8000/api/files/"
-}
-    ```
+  
 ENDPOINTS
 ===================
 
