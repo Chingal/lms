@@ -4,9 +4,9 @@ Create an api rest that allows us to manage the transaction creation tickets in 
 
 Api Root
 ========
-* **URL**: ``/api/``
+* **URL**: ``/api-token-auth/``
 
-* **METHOD**: ``GET``
+* **METHOD**: ``POST``
 
 * **Success Response**:
     * **Code**: ``200 OK``
@@ -22,17 +22,16 @@ Api Root
 Obtain Auth Token
 =================
 
-A Django App that adds CORS (Cross-Origin Resource Sharing) headers to
-responses.
+* **URL**: ``/api/``
 
+* **METHOD**: ``GET``
 
-Requirements
-------------
+* **DATA PARAMS**:
+    
+.. code-block:: javascrip
 
-Tested with all combinations of:
+	{"username": admin, "password": "********" }
 
-* Python: 2.7, 3.6
-* Django: 1.8, 1.9, 1.10, 1.11, 2.0
 
 Setup
 -----
