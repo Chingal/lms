@@ -26,7 +26,7 @@ Obtain Auth Token
 
 * **METHOD**: ``GET``
 
-* **DATA PARAMS**:
+* **DATA PARAMS**: ``{"username": admin, "password": "********" }``
     
 .. code-block:: javascrip
 
