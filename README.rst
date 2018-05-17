@@ -50,7 +50,7 @@ List Tickets
     * **Code**: ``200 OK``
     * **Content**:
 
-.. code-block:: python
+.. code-block:: json
 
 	{"token": "xxxxxxx-12345-aaaa-bbbb-9876-xxxx"}
 
@@ -62,6 +62,36 @@ List Tickets
 	?start_date=2018-12-12
 	?end_date=2018-12-12
 	?start_date=2018-11-12&end_date=2018-12-12
+
+* **Success Response**:
+    * **Code**: ``200 OK``
+    * **Content**:
+
+.. code-block:: json
+
+	{
+        	"count": 3,
+        	"next": null,
+        	"previous": null,
+        	"results": [{
+                	"url": "http://localhost:8000/api/tickets/1/",
+                	"user": "admin",
+                	"limit": 5,
+                	"status": "PENDING",
+                	"files": [
+                    		{
+                        		"file": "/media/upload/admin/image1.png",
+                        		"ticket": 1
+                    		},
+                    		{
+	                        	"file": "/media/upload/admin/image2.png",
+        	                	"ticket": 1
+                	    	}
+                	]
+            	}]
+	}
+
+
 
 Install from **pip**:
 
