@@ -94,6 +94,33 @@ List Tickets
 	   }
 
 
+Create Ticket
+=============
+
+* **URL**: ``/api/tickets/``
+
+* **METHOD**: ``POST``
+
+* **Header** *(Authorization)* : *Token* ``xxxxxxx-12345-aaaa-bbbb-9876-xxxx``
+    
+* **Success Response**:
+    * **Code**: ``200 OK``
+    * **Content**:
+
+.. code-block:: json
+
+	{"limit": 5, "status": "PENDING"}
+
+    * **Status**:
+       * **PENDING**: PENDING
+       ``200 OK``: ``200 OK``
+    
+
+* **Success Response**:
+    * **Code**: ``200 OK``
+    * **Content**:
+
+
 
 Install from **pip**:
 
