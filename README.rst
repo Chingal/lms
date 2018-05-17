@@ -56,7 +56,7 @@ List Tickets
 
 * **URL Params Filter**: ``status``, ``start_date``, ``end_date``
 
-.. code-block:: python
+.. code-block:: json
 
     	?status=PENDING
 	?start_date=2018-12-12
