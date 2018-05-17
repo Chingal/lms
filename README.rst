@@ -111,9 +111,10 @@ Create Ticket
 
 	{"limit": 5, "status": "PENDING"}
 
-    * **Status**:
-       * **PENDING**: PENDING
-       ``200 OK``: ``200 OK``
+
+* **Status**:
+    * **PENDING**: PENDING
+    ``200 OK``: ``200 OK``
     
 
 * **Success Response**:
