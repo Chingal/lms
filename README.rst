@@ -111,10 +111,11 @@ Create Ticket
 
 	{"limit": 5, "status": "PENDING"}
 
-
+   
+   * **Status**:
 * **Status**:
-    * **PENDING**: PENDING
-    ``200 OK``: ``200 OK``
+    * **PENDING**: The user has not yet uploaded any image.
+    ``PENDING``: ``The user has not yet uploaded any image.``
     
 
 * **Success Response**:
