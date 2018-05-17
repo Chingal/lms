@@ -114,8 +114,8 @@ Create Ticket
 
 * **Status**:
     * *PENDING*: The user has not yet uploaded any image.
-    *``*PENDING*``*: ``The user has not yet uploaded any image.``
-    
+    * *IN PROGRES*: The user uploaded an image.
+    * *COMPLETED*: The user uploaded all the images.    
 
 * **Success Response**:
     * **Code**: ``200 OK``
