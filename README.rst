@@ -69,27 +69,29 @@ List Tickets
 
 .. code-block:: json
 
-	{
-        	"count": 3,
+	   {
+                "count": 3,
         	"next": null,
         	"previous": null,
-        	"results": [{
+        	"results": [
+		    {
                 	"url": "http://localhost:8000/api/tickets/1/",
                 	"user": "admin",
                 	"limit": 5,
                 	"status": "PENDING",
                 	"files": [
-                    		{
-                        		"file": "/media/upload/admin/image1.png",
-                        		"ticket": 1
-                    		},
-                    		{
-	                        	"file": "/media/upload/admin/image2.png",
-        	                	"ticket": 1
-                	    	}
+                    	    {
+                        	"file": "/media/upload/admin/image1.png",
+                        	"ticket": 1
+                    	    },
+                    	    {
+	                       	"file": "/media/upload/admin/image2.png",
+        	               	"ticket": 1
+                	    }
                 	]
-            	}]
-	}
+            	    }
+		]
+	   }
 
 
 
