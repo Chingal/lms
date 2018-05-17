@@ -103,10 +103,8 @@ Create Ticket
 
 * **Header** *(Authorization)* : *Token* ``xxxxxxx-12345-aaaa-bbbb-9876-xxxx``
     
-* **Success Response**:
-    * **Code**: ``200 OK``
-    * **Content**:
-
+* **Data Params:**:
+    
 .. code-block:: json
 
 	{"limit": 5, "status": "PENDING"}
@@ -121,20 +119,12 @@ Create Ticket
     * **Code**: ``200 OK``
     * **Content**:
 
+.. code-block:: json
 
-
-Install from **pip**:
-
-.. code-block:: sh
-
-    pip install django-cors-headers
-
-and then add it to your installed apps:
-
-.. code-block:: python
-
-    INSTALLED_APPS = (
-        ...
-        'corsheaders',
-        ...
-    )
+	{
+        	"url": "http://localhost:8000/api/tickets/1/",
+        	"user": "admin",
+        	"limit": 5,
+        	"status": "PENDING",
+        	"files": []
+	}
