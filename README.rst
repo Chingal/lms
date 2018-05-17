@@ -112,7 +112,7 @@ Create Ticket
 
 * **Status**:
     * *PENDING*: The user has not yet uploaded any image.
-    * *IN PROGRES*: The user uploaded an image.
+    * *IN PROGRESS*: The user uploaded an image.
     * *COMPLETED*: The user uploaded all the images.    
 
 * **Success Response**:
@@ -128,3 +128,35 @@ Create Ticket
         	"status": "PENDING",
         	"files": []
 	}
+
+
+Upload Files
+=============
+
+* **URL**: ``/api/files/``
+
+* **METHOD**: ``POST``
+
+* **Header** *(Authorization)* : *Token* ``xxxxxxx-12345-aaaa-bbbb-9876-xxxx``
+    
+* **Data Params:**:
+    
+.. code-block:: json
+
+	{"ticket": id, "file": path}
+
+* **Success Response**:
+    * **Code**: ``200 OK``
+    * **Content**:
+
+.. code-block:: json
+
+	{
+        	"file": "/media/upload/admin/image.png",
+    		"ticket": id
+	}
+	
+## Colaboradores
+
+@chingal_
+@chingal-dev
