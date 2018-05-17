@@ -12,7 +12,7 @@ Api Root
     * **Code**: ``200 OK``
     * **Content**:
 
-.. code-block:: javascrip
+.. code-block:: json
 
 	{   
     		"tickets": "http://localhost:8000/api/tickets/",
@@ -32,7 +32,7 @@ Obtain Auth Token
     * **Code**: ``200 OK``
     * **Content**:
 
-.. code-block:: python
+.. code-block:: json
 
 	{"token": "xxxxxxx-12345-aaaa-bbbb-9876-xxxx"}
 
