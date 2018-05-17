@@ -56,7 +56,12 @@ List Tickets
 
 * **URL Params Filter**: ``status``, ``start_date``, ``end_date``
 
+.. code-block:: python
 
+    	?status=PENDING
+	?start_date=2018-12-12
+	?end_date=2018-12-12
+	?start_date=2018-11-12&end_date=2018-12-12
 
 Install from **pip**:
 
