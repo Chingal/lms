@@ -45,14 +45,6 @@ List Tickets
 * **METHOD**: ``GET``
 
 * **Header** *(Authorization)* : *Token* ``xxxxxxx-12345-aaaa-bbbb-9876-xxxx``
-    
-* **Success Response**:
-    * **Code**: ``200 OK``
-    * **Content**:
-
-.. code-block:: json
-
-	{"token": "xxxxxxx-12345-aaaa-bbbb-9876-xxxx"}
 
 * **URL Params Filter**: ``status``, ``start_date``, ``end_date``
 
