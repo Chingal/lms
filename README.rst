@@ -4,9 +4,9 @@ Create an api rest that allows us to manage the transaction creation tickets in 
 
 Api Root
 ========
-* **URL**: ``/api-token-auth/``
+* **URL**: ``/api/``
 
-* **METHOD**: ``POST``
+* **METHOD**: ``GET``
 
 * **Success Response**:
     * **Code**: ``200 OK``
@@ -22,9 +22,9 @@ Api Root
 Obtain Auth Token
 =================
 
-* **URL**: ``/api/``
+* **URL**: ``/api-token-auth/``
 
-* **METHOD**: ``GET``
+* **METHOD**: ``POST``
 
 * **DATA PARAMS**: ``{"username": admin, "password": "********" }``
     
@@ -36,8 +36,26 @@ Obtain Auth Token
 
 	{"token": "xxxxxxx-12345-aaaa-bbbb-9876-xxxx"}
 
-Setup
------
+
+List Tickets
+============
+
+* **URL**: ``/api/tickets/``
+
+* **METHOD**: ``GET``
+
+* **Header** *(Authorization)* : *Token* `A` ``xxxxxxx-12345-aaaa-bbbb-9876-xxxx``
+    
+* **Success Response**:
+    * **Code**: ``200 OK``
+    * **Content**:
+
+.. code-block:: python
+
+	{"token": "xxxxxxx-12345-aaaa-bbbb-9876-xxxx"}
+
+
+
 
 Install from **pip**:
 
